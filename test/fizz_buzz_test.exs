@@ -41,4 +41,8 @@ defmodule FizzBuzzTest do
     assert "buzz" == FizzBuzz.say(10)
   end
 
+  test "15 is fizzbuzz" do
+    assert "fizzbuzz" == FizzBuzz.say(15)
+  end
+
 end

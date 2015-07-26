@@ -1,5 +1,9 @@
 defmodule FizzBuzz do
 
+  def say(number) when rem(number, 15) == 0 do
+    "fizzbuzz"
+  end
+
   def say(number) when rem(number, 3) == 0 do
     "fizz"
   end
